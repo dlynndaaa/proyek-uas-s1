@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 #include <iomanip>
 
 using namespace std;
@@ -87,8 +86,10 @@ int main(){
     char lanjut;
     do{ //*PERULANGAN*//
         beranda();
+        
         cout << "Apakah anda ingin memulai (y/t)? ";
         cin >> lanjut;
+        
         judulIncome();
         headTable();
 
