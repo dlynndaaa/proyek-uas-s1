@@ -248,8 +248,9 @@ int main(){
         cout << endl;
 
         cout << "===================================== PROGRAM TELAH SELESAI ====================================" << endl;
-        cout << "Apakah anda ingin mengulang program ini? ";
+        cout << "Apakah anda ingin mengulang program ini(y/t)? ";
         cin >> lanjut;
-    }while (lanjut=='y');
+    }
+    while (lanjut=='y');
 return 0;
 }
