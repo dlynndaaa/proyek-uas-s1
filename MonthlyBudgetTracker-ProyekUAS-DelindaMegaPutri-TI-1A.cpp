@@ -245,7 +245,11 @@ int main(){
             cout << "| Sayang sekali, uang anda tidak tersisa di bulan ini :(" << setw(40) << "|" << endl;
         }
         cout << "------------------------------------------------------------------------------------------------" << endl;
-        break;
+        cout << endl;
+
+        cout << "===================================== PROGRAM TELAH SELESAI ====================================" << endl;
+        cout << "Apakah anda ingin mengulang program ini? ";
+        cin >> lanjut;
     }while (lanjut=='y');
 return 0;
 }
